@@ -22,6 +22,7 @@ pygame.display.set_caption("Snake Game by Edureka")
 blue = (0,0,255)
 red = (255,0,0)
 yellow = (255, 255, 0)
+green = (0, 255, 0)
 white = (255, 255, 255)
 
 #variable for when game is over
@@ -33,8 +34,12 @@ y1 = 300
 x1_change = 0
 y1_change = 0
 
-
 clock = pygame.time.Clock()
+snake_speed = 30 
+snake_color = blue
+snake_head_size = 20
+font_style = pygame.font.SysFont(None, 50)
+ 
 
 
 
